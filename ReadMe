@@ -1,0 +1,52 @@
+# Prerequisites
+Before running the notebook, ensure you have the following:
+
+Python 3.8 or higher installed (visit the official python page)
+Jupyter Notebook or JupyterLab installed (you can install by running this on your cmd: pip install jupyterlab)
+An active internet connection for package installations
+
+
+# Environment Setup
+To set up the environment and run the main_eda.ipynb file, follow the steps below:
+
+Step 1: Create a Virtual Environment (Optional but Recommended)
+It's a good practice to create a virtual environment to isolate project dependencies.
+
+# code:
+# Create a virtual environment named 'eda-env'
+python -m venv eda-env
+
+# Activate the virtual environment
+# On Windows:
+eda-env\Scripts\activate
+
+# On macOS/Linux:
+source eda-env/bin/activate
+
+
+# Step 2: Install Required Dependencies
+After setting up the environment, install the necessary Python libraries required for running the notebook. You can install them manually or use the provided requirements.txt.
+
+# Option 1: Install using requirements.txt (if provided)
+pip install -r requirements.txt
+
+
+# Option 2: Manually Install Required Libraries
+If requirements.txt is fails to sail through, install the dependencies manually:
+
+for example:
+pip install pandas matplotlib seaborn pyspark
+
+# Step 3: Download the Dataset
+Ensure the dataset used in the analysis is available in the correct directory. Place it locally in the same folder as main_eda.ipynb.
+
+
+# Step 4: Launch Jupyter Notebook
+After the environment setup, launch Jupyter Notebook and open the main_eda.ipynb file:
+
+# step 5: Start Jupyter Notebook as follows:
+- open command prompt (cmd) 
+- Navigate to directory where main_eda.ipynb file is located
+- type the command: jupyter notebook
+- the file will open in your default browser and you will be able to run the cells sequentially in the main_eda.ipynb file
+
