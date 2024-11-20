@@ -50,3 +50,11 @@ After the environment setup, launch Jupyter Notebook and open the main_eda.ipynb
 - type the command: jupyter notebook
 - the file will open in your default browser and you will be able to run the cells sequentially in the main_eda.ipynb file
 
+# NOTE
+- To run through the model, ensure your run through the cells of main_eda.ipynb - at completion, df_cleaned.csv file will be exported - this file contains the cleaned data(data that has been preprocessed and read for modelling)
+- Now go back and open the model-building.ipynb file - this file contains the implementation of the models used in our project: Linear Regression, Neural Networks, Random Forest Regressor and Gradient Boosting Regressor
+- Run through all the cells
+- The last cell when executed  prompts a menu based inteface - its from this interface that you be selecting the model you want to train and see its results. The menu will guide you.
+
+Thanks
+
